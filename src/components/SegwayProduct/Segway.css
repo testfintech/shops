@@ -1,0 +1,26 @@
+.segwayProduct {
+  width: 100%;
+  background-color: #323941;
+}
+
+.segwayProduct .segwayProductCard {
+  max-width: 1370px;
+  margin: auto;
+}
+
+.segwayProduct .segwayProductCard .top {
+  border-bottom: 1px solid gray;
+}
+
+.segwayProduct .segwayProductCard .top,
+.segwayProduct .segwayProductCard .bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.segwayProduct .segwayProductCard .card {
+  width: 180px;
+  height: 180px;
+}
